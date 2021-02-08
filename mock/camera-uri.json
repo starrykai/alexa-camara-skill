@@ -1,13 +1,13 @@
 {
-  "uri": "rtmp://58.200.131.2:1935/livetv/hunantv",
+  "uri": "http://playertest.longtailvideo.com/adaptive/bipbop/gear4/prog_index.m3u8",
   "expirationTime": "2020-10-03T16:20:50.52Z",
   "idleTimeoutSeconds": 30,
-  "protocol": "RTSP",
+  "protocol": "HLS",
   "resolution": {
     "width": 1920,
     "height": 1080
   },
-  "authorizationType": "BASIC",
+  "authorizationType": "NONE",
   "videoCodec": "H264",
   "audioCodec": "AAC"
 }

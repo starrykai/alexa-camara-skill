@@ -22,7 +22,7 @@
         "cameraStreamConfigurations": [
           {
             "protocols": [
-              "RTSP"
+              "HLS"
             ],
             "resolutions": [
               {
@@ -47,7 +47,7 @@
           },
           {
             "protocols": [
-              "RTSP"
+              "HLS"
             ],
             "resolutions": [
               {

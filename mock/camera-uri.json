@@ -1,5 +1,5 @@
 {
-  "uri": "http://playertest.longtailvideo.com/adaptive/bipbop/gear4/prog_index.m3u8",
+  "uri": "http://220.161.87.62:8800/hls/0/index.m3u8",
   "expirationTime": "2020-10-03T16:20:50.52Z",
   "idleTimeoutSeconds": 30,
   "protocol": "HLS",

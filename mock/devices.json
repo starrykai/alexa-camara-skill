@@ -1,8 +1,8 @@
 [
   {
     "endpointId": "uniqueIdOfCameraEndpoint1",
-    "manufacturerName": "the manufacturer name of the endpoint",
-    "modelName": "the model name of the endpoint",
+    "manufacturerName": "DaZhi",
+    "modelName": "A1",
     "friendlyName": "CameraOne",
     "description": "a description that is shown to the customer",
     "displayCategories": [

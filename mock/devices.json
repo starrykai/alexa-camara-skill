@@ -4,7 +4,7 @@
     "manufacturerName": "DaZhi",
     "modelName": "A1",
     "friendlyName": "CameraOne",
-    "description": "a description that is shown to the customer",
+    "description": "Demo of HLS Stream camera",
     "displayCategories": [
       "CAMERA"
     ],

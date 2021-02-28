@@ -1,19 +1,14 @@
 [
   {
-    "endpointId": "uniqueIdOfCameraEndpoint",
+    "endpointId": "uniqueIdOfCameraEndpoint1",
     "manufacturerName": "the manufacturer name of the endpoint",
     "modelName": "the model name of the endpoint",
-    "friendlyName": "Camera",
+    "friendlyName": "CameraOne",
     "description": "a description that is shown to the customer",
     "displayCategories": [
       "CAMERA"
     ],
-    "cookie": {
-      "key1": "arbitrary key/value pairs for skill to reference this endpoint.",
-      "key2": "There can be multiple entries",
-      "key3": "but they should only be used for reference purposes.",
-      "key4": "This is not a suitable place to maintain current endpoint state."
-    },
+    "cookie": {},
     "capabilities": [
       {
         "type": "AlexaInterface",
@@ -71,11 +66,31 @@
           }
         ]
       },
-      {
-        "type": "AlexaInterface",
-        "interface": "Alexa.PowerController",
-        "version": "3"
-      }
+            {
+              "type": "AlexaInterface",
+              "interface": "Alexa.MediaMetadata",
+              "version": "3",
+              "proactivelyReported": true
+            },
+            {
+              "type": "AlexaInterface",
+              "interface": "Alexa.EndpointHealth",
+              "version": "3",
+              "properties": {
+                "supported": [
+                  {
+                    "name":"connectivity"
+                  }
+                ],
+                "proactivelyReported": true,
+                "retrievable": true
+              }
+            },
+            {
+              "type": "AlexaInterface",
+              "interface": "Alexa",
+              "version": "3"
+            }
     ]
   }
 ]
